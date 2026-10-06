@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Attendance Management System</h1>
+
+        <div class="form">
+            <input type="text" id="name" placeholder="Enter Student Name">
+            <input type="text" id="rollno" placeholder="Enter Roll Number">
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+
+        <h2>Student Attendance</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Student Name</th>
+                    <th>Attendance</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+
+            <tbody id="studentList">
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
